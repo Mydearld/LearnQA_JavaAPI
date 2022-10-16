@@ -11,4 +11,9 @@ public class HelloWorldTest {
                 .andReturn();
         response.prettyPrint(); //распечатываем
     }
+
+    @Test
+    public void testHelloWorldForEx3() {
+        System.out.println("Hello from Yana");
+    }
 }
